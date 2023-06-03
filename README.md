@@ -27,6 +27,7 @@ Developed by: B NARENDRAN
 
 RegisterNumber: 212222240069
 
+```
 import pandas as pd
 data=pd.read_csv("spam.csv",encoding='latin-1')
 data.head()
@@ -48,6 +49,7 @@ y_pred
 from sklearn import metrics
 accuracy=metrics.accuracy_score(y_test,y_pred)
 accuracy
+```
 
 ## Output:
 ## Data Head:
